@@ -1,13 +1,13 @@
 # Exercise: keyphrases
 
-Have a sample  set of keyphrases extracted from a corpus (fields `keyphrase`, `weight` and `doc_id`):
+Here is a sample set of keyphrases extracted from some documents (fields `keyphrase`, `weight` and `doc_id`):
 
 ```scala
 ("performance", 0.03, 101)
 ("performance", 0.001, 203)
 ("Java Just-In-Time compiler", 0.4, 501)
 ("java just In Time compiler", 0.1, 208)
-("Performance", 0.2, 101)
+("Performance", 0.2, 102)
 ("JAVA JUST-IN-TIME COMPILER", 0.002, 1001)
 ("Java Just-In-Time compiler", 0.99, 23)
 ```
@@ -35,7 +35,7 @@ So remapping the sample data should result in:
 ("performance", 0.001, 203)
 ("Java Just-In-Time compiler", 0.4, 501)
 ("Java Just-In-Time compiler", 0.1, 208)
-("performance", 0.2, 101)
+("performance", 0.2, 102)
 ("Java Just-In-Time compiler", 0.002, 1001)
 ("Java Just-In-Time compiler", 0.999, 23)
 ```
